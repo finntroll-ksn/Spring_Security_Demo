@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<!-- exclude from checkstyle ( http://checkstyle.sourceforge.net/config.html#SuppressionFilter ) -->
+<suppressions>
+    <suppress files="[\\/]gensrc[\\/]" checks="[a-zA-Z0-9]*"/>
+    <suppress files="[/\\]gensrc[/\\]" checks=".*"/>
+    <suppress files="[/\\]target[/\\]" checks=".*"/>
+    <suppress files="[/\\]build[/\\]" checks=".*"/>
+    <suppress files="[/\\]src/test[/\\]" checks=".*"/>
+    <suppress files="[/\\]src/ittest[/\\]" checks=".*"/>
+    <suppress files="[/\\]src/generated[/\\]" checks=".*"/>
+    <suppress files="[/\\]db/migration[/\\]" checks=".*"/>
+    <suppress files="CustomRedissonCacheManager\.java" checks=".*"/>
+</suppressions>
